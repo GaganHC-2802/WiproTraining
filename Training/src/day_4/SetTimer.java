@@ -21,7 +21,7 @@ public class SetTimer {
 
         System.out.print("Enter number of tasks for today: ");
         int n = scanner.nextInt();
-        scanner.nextLine(); // consume newline
+        scanner.nextLine(); 
 
         for (int i = 0; i < n; i++) {
             System.out.println("\nTask #" + (i + 1));
@@ -61,10 +61,11 @@ public class SetTimer {
 
             } catch (Exception e) {
                 System.out.println("Invalid time format. Try again.");
-                i--; // retry this task
+                i--; 
             }
         }
 
         System.out.println("\nAll tasks have been scheduled. App is running...");
+        scanner.close();
     }
 }
