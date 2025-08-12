@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class Jdbc_Tables {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/JDBC";  // Your DB name
+        String url = "jdbc:mysql://localhost:3306/mydb";  // Your DB name
         String username = "root";
         String pwd = "Stromhc_28";
 
