@@ -10,7 +10,7 @@ class Desktop implements WiproSystems{
 	}
 	public void compilespeed() {
 		System.out.println("Code is compiled faster in Desktop");
-}
+	}
 }
 class Laptop implements WiproSystems{
 	public void deviceType() {
@@ -18,9 +18,9 @@ class Laptop implements WiproSystems{
 	}
 	public void compilespeed() {
 		System.out.println("Code is compiled slower in Laptop");
-}
-	
 	}
+}
+
 public class WiproDevices {
 	public static void main(String[] args) {
 		WiproSystems laptop=new Laptop();
@@ -32,4 +32,3 @@ public class WiproDevices {
 		desktop.compilespeed();
 	}
 }
-
