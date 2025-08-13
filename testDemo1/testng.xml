@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testDemo1.Demo1"/>
+      <class name="testDemo1.Annotations"/>
+      <class name="testDemo1.Launch"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
