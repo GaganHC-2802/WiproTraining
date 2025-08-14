@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="9" total="12" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-12T17:06:02 IST" name="Default suite" finished-at="2025-08-12T17:06:13 IST" duration-ms="10973">
+  <suite started-at="2025-08-14T17:49:22 IST" name="Suite" finished-at="2025-08-14T17:49:22 IST" duration-ms="57">
     <groups>
+      <group name="regression">
+        <method signature="GroupTest.Test3()[pri:0, instance:testDemo2.GroupTest@6c40365c]" name="Test3" class="testDemo2.GroupTest"/>
+        <method signature="GroupTest.Test5()[pri:0, instance:testDemo2.GroupTest@6c40365c]" name="Test5" class="testDemo2.GroupTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GroupTest.Test2()[pri:0, instance:testDemo2.GroupTest@6c40365c]" name="Test2" class="testDemo2.GroupTest"/>
+        <method signature="GroupTest.Test3()[pri:0, instance:testDemo2.GroupTest@6c40365c]" name="Test3" class="testDemo2.GroupTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-08-12T17:06:02 IST" name="Default test" finished-at="2025-08-12T17:06:13 IST" duration-ms="10973">
-      <class name="testDemo2.BaseTest1">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testDemo2.BaseTest1@6f4a47c7]" started-at="2025-08-12T17:06:02 IST" name="launchBrowser" finished-at="2025-08-12T17:06:05 IST" duration-ms="2606" status="PASS">
+    <test started-at="2025-08-14T17:49:22 IST" name="Test" finished-at="2025-08-14T17:49:22 IST" duration-ms="57">
+      <class name="testDemo2.GroupTest">
+        <test-method signature="Test2()[pri:0, instance:testDemo2.GroupTest@6c40365c]" started-at="2025-08-14T17:49:22 IST" name="Test2" finished-at="2025-08-14T17:49:22 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="fillPracticeForm()[pri:0, instance:testDemo2.BaseTest1@6f4a47c7]" started-at="2025-08-12T17:06:05 IST" name="fillPracticeForm" finished-at="2025-08-12T17:06:13 IST" duration-ms="8137" status="PASS">
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test3()[pri:0, instance:testDemo2.GroupTest@6c40365c]" started-at="2025-08-14T17:49:22 IST" name="Test3" finished-at="2025-08-14T17:49:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillPracticeForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testDemo2.BaseTest1@6f4a47c7]" started-at="2025-08-12T17:06:13 IST" name="tearDown" finished-at="2025-08-12T17:06:13 IST" duration-ms="194" status="PASS">
+        </test-method> <!-- Test3 -->
+        <test-method signature="Test5()[pri:0, instance:testDemo2.GroupTest@6c40365c]" started-at="2025-08-14T17:49:22 IST" name="Test5" finished-at="2025-08-14T17:49:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testDemo2.BaseTest1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Test5 -->
+      </class> <!-- testDemo2.GroupTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -12,10 +12,24 @@
           <include name="loginTest"/>
           <include name="afterMethod"/>
           <include name="beforeTest"/>
-          <include name="afterSuite"/>
           <include name="afterTest"/>
+          <include name="afterSuite"/>
         </methods>
       </class> <!-- testDemo1.Annotations -->
+      <class name="testDemo1.Practice_DemoShop">
+        <methods>
+          <include name="launchWebShop"/>
+          <include name="logIn"/>
+          <include name="clickBook"/>
+        </methods>
+      </class> <!-- testDemo1.Practice_DemoShop -->
+      <class name="testDemo1.Application1">
+        <methods>
+          <include name="registerNewUser"/>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testDemo1.Application1 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
