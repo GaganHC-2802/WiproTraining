@@ -1,33 +1,334 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="9" total="12" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="6" failed="0" skipped="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-14T17:49:22 IST" name="Suite" finished-at="2025-08-14T17:49:22 IST" duration-ms="57">
+  <suite started-at="2025-08-16T19:43:54 IST" name="Default suite" finished-at="2025-08-16T19:43:54 IST" duration-ms="136">
     <groups>
       <group name="regression">
-        <method signature="GroupTest.Test3()[pri:0, instance:testDemo2.GroupTest@6c40365c]" name="Test3" class="testDemo2.GroupTest"/>
-        <method signature="GroupTest.Test5()[pri:0, instance:testDemo2.GroupTest@6c40365c]" name="Test5" class="testDemo2.GroupTest"/>
+        <method signature="GroupTest.Test3()[pri:0, instance:testDemo2.GroupTest@55fe41ea]" name="Test3" class="testDemo2.GroupTest"/>
+        <method signature="GroupTest.Test5()[pri:0, instance:testDemo2.GroupTest@55fe41ea]" name="Test5" class="testDemo2.GroupTest"/>
+        <method signature="GroupTest.Test6()[pri:0, instance:testDemo2.GroupTest@55fe41ea]" name="Test6" class="testDemo2.GroupTest"/>
+        <method signature="AnnotationsWebOrders.placeOrder()[pri:3, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" name="placeOrder" class="testDemo2.AnnotationsWebOrders"/>
+        <method signature="AnnotationsWebOrders.verifyOrderInList()[pri:4, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" name="verifyOrderInList" class="testDemo2.AnnotationsWebOrders"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="GroupTest.Test2()[pri:0, instance:testDemo2.GroupTest@6c40365c]" name="Test2" class="testDemo2.GroupTest"/>
-        <method signature="GroupTest.Test3()[pri:0, instance:testDemo2.GroupTest@6c40365c]" name="Test3" class="testDemo2.GroupTest"/>
+        <method signature="GroupTest.Test1()[pri:0, instance:testDemo2.GroupTest@55fe41ea]" name="Test1" class="testDemo2.GroupTest"/>
+        <method signature="GroupTest.Test2()[pri:0, instance:testDemo2.GroupTest@55fe41ea]" name="Test2" class="testDemo2.GroupTest"/>
+        <method signature="GroupTest.Test3()[pri:0, instance:testDemo2.GroupTest@55fe41ea]" name="Test3" class="testDemo2.GroupTest"/>
+        <method signature="AnnotationsWebOrders.verifyHomePage()[pri:1, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" name="verifyHomePage" class="testDemo2.AnnotationsWebOrders"/>
+        <method signature="AnnotationsWebOrders.viewAllOrders()[pri:2, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" name="viewAllOrders" class="testDemo2.AnnotationsWebOrders"/>
       </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="GroupTest.Test1()[pri:0, instance:testDemo2.GroupTest@55fe41ea]" name="Test1" class="testDemo2.GroupTest"/>
+        <method signature="GroupTest.Test4()[pri:0, instance:testDemo2.GroupTest@55fe41ea]" name="Test4" class="testDemo2.GroupTest"/>
+        <method signature="GroupTest.Test6()[pri:0, instance:testDemo2.GroupTest@55fe41ea]" name="Test6" class="testDemo2.GroupTest"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-08-14T17:49:22 IST" name="Test" finished-at="2025-08-14T17:49:22 IST" duration-ms="57">
+    <test started-at="2025-08-16T19:43:54 IST" name="Default test" finished-at="2025-08-16T19:43:54 IST" duration-ms="136">
       <class name="testDemo2.GroupTest">
-        <test-method signature="Test2()[pri:0, instance:testDemo2.GroupTest@6c40365c]" started-at="2025-08-14T17:49:22 IST" name="Test2" finished-at="2025-08-14T17:49:22 IST" duration-ms="9" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:testDemo2.GroupTest@55fe41ea]" started-at="2025-08-16T19:43:54 IST" name="Test1" finished-at="2025-08-16T19:43:54 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test2()[pri:0, instance:testDemo2.GroupTest@55fe41ea]" started-at="2025-08-16T19:43:54 IST" name="Test2" finished-at="2025-08-16T19:43:54 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method signature="Test3()[pri:0, instance:testDemo2.GroupTest@6c40365c]" started-at="2025-08-14T17:49:22 IST" name="Test3" finished-at="2025-08-14T17:49:22 IST" duration-ms="2" status="PASS">
+        <test-method signature="Test3()[pri:0, instance:testDemo2.GroupTest@55fe41ea]" started-at="2025-08-16T19:43:54 IST" name="Test3" finished-at="2025-08-16T19:43:54 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method signature="Test5()[pri:0, instance:testDemo2.GroupTest@6c40365c]" started-at="2025-08-14T17:49:22 IST" name="Test5" finished-at="2025-08-14T17:49:22 IST" duration-ms="0" status="PASS">
+        <test-method signature="Test4()[pri:0, instance:testDemo2.GroupTest@55fe41ea]" started-at="2025-08-16T19:43:54 IST" name="Test4" finished-at="2025-08-16T19:43:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method signature="Test5()[pri:0, instance:testDemo2.GroupTest@55fe41ea]" started-at="2025-08-16T19:43:54 IST" name="Test5" finished-at="2025-08-16T19:43:54 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test5 -->
+        <test-method signature="Test6()[pri:0, instance:testDemo2.GroupTest@55fe41ea]" started-at="2025-08-16T19:43:54 IST" name="Test6" finished-at="2025-08-16T19:43:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6 -->
       </class> <!-- testDemo2.GroupTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      <class name="testDemo2.AnnotationsWebOrders">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="beforeSuite" finished-at="2025-08-16T19:43:54 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1755353634262" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\gagan\AppData\Local\Temp\testng-eclipse-865903816\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\gagan\AppData\Local\Temp\testng-eclipse-865903816\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="setUp" finished-at="2025-08-16T19:43:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePage()[pri:1, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="verifyHomePage" finished-at="2025-08-16T19:43:54 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\gagan\AppData\Local\Temp\testng-eclipse-865903816\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\gagan\AppData\Local\Temp\testng-eclipse-865903816\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="tearDown" finished-at="2025-08-16T19:43:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="setUp" finished-at="2025-08-16T19:43:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="viewAllOrders()[pri:2, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="viewAllOrders" finished-at="2025-08-16T19:43:54 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\gagan\AppData\Local\Temp\testng-eclipse-865903816\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\gagan\AppData\Local\Temp\testng-eclipse-865903816\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewAllOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="tearDown" finished-at="2025-08-16T19:43:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="setUp" finished-at="2025-08-16T19:43:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrder()[pri:3, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="placeOrder" finished-at="2025-08-16T19:43:54 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\gagan\AppData\Local\Temp\testng-eclipse-865903816\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\gagan\AppData\Local\Temp\testng-eclipse-865903816\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="tearDown" finished-at="2025-08-16T19:43:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="setUp" finished-at="2025-08-16T19:43:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOrderInList()[pri:4, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="verifyOrderInList" finished-at="2025-08-16T19:43:54 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\gagan\AppData\Local\Temp\testng-eclipse-865903816\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\gagan\AppData\Local\Temp\testng-eclipse-865903816\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderInList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="tearDown" finished-at="2025-08-16T19:43:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="finalReportTest()[pri:0, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="finalReportTest" depends-on-groups="regression, smoke" finished-at="2025-08-16T19:43:54 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AnnotationsWebOrders.finalReportTest()[pri:0, instance:testDemo2.AnnotationsWebOrders@71e9ddb4] depends on not successfully finished methods in group "regression"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AnnotationsWebOrders.finalReportTest()[pri:0, instance:testDemo2.AnnotationsWebOrders@71e9ddb4] depends on not successfully finished methods in group "regression"
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalReportTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="tearDown" finished-at="2025-08-16T19:43:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testDemo2.AnnotationsWebOrders@71e9ddb4]" started-at="2025-08-16T19:43:54 IST" name="afterSuite" finished-at="2025-08-16T19:43:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testDemo2.AnnotationsWebOrders -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

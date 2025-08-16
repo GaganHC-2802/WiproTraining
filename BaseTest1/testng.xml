@@ -7,7 +7,7 @@
 			<run>
 				<include name="smoke" />
 				<exclude name="sanity" />
-				<include name="regression"></include>
+				<include name="regression"/>
 			</run>
 		</groups>
 		<classes>
